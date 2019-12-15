@@ -1,6 +1,4 @@
-import 'package:clima/services/weather.dart';
-import 'package:flutter/material.dart';
-import 'package:clima/utilities/constants.dart';
+
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class LocationScreen extends StatefulWidget {
