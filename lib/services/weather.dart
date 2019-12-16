@@ -1,6 +1,6 @@
-import 'package:clima/services/networking.dart';
-import 'package:clima/utilities/constants.dart';
-import 'package:clima/services/location.dart';
+import 'package:WeatherApp/services/location.dart';
+import 'package:WeatherApp/services/networking.dart';
+import 'package:WeatherApp/utilities/constants.dart';
 
 class WeatherModel {
   Future<dynamic> getCityWeather(String city) async {
