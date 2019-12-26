@@ -17,7 +17,7 @@ class WeatherModel {
 
     // Network Helper to do network requests
     NetworkHelper networkHelper = NetworkHelper(
-        'https://api.openweathermap.org/data/2.5/weather?lat=${userLocation.latitude}&lon=${userLocation.longitude}&appid=$kApiKey&units=metric');
+        '$kOpenWeatherMapURL?lat=${userLocation.latitude}&lon=${userLocation.longitude}&appid=$kApiKey&units=metric');
     var weatherInfo = await networkHelper.getData();
     return weatherInfo;
   }
